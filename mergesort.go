@@ -1,15 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	unsorted := []int{5, 3, 7, 0, 13, 53, 44, 66, 75, 86, 23, 4, 3, 53}
-	Mergesort(unsorted)
-	fmt.Println(unsorted)
-
-}
+package algo
 
 func Mergesort(in []int) {
 	temp := make([]int, len(in))
